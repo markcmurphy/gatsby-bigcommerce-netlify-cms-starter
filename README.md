@@ -12,14 +12,14 @@ This version of the starter is meant to power a simple, single language storefro
 
 ## Prerequisites
 
-- Node (v10.16.3) Recommended
+- [Node.js](https://nodejs.org/en/) (`^14.17.5`)
 - [Gatsby CLI](https://www.gatsbyjs.org/docs/)
 - [Netlify CLI](https://www.netlify.com/docs/cli/)
-- [A BigCommerce Instance with API keys](https://developer.bigcommerce.com/api-docs)
+- [A BigCommerce Instance with API keys](https://developer.bigcommerce.com/api-docs/getting-started/authentication/rest-api-authentication#obtaining-store-api-credentials#obtaining-store-api-credentials)
 
 ## Setting up BigCommerce
 
-The BigCommerce source plugin relies on API Keys. In this starter we are using the node project `dotenv` to access these variables. Make a copy of the `SAMPLE.env` file and fill in the variables from your [BigCommerce API user details](https://developer.bigcommerce.com/api-docs/getting-started/authentication#authentication_getting-api-credentials).
+The BigCommerce source plugin relies on API Keys. In this starter we are using the node project `dotenv` to access these variables. Make a copy of the `SAMPLE.env` file and fill in the variables from your [BigCommerce API user details](https://developer.bigcommerce.com/api-docs/getting-started/authentication/rest-api-authentication#obtaining-store-api-credentials#obtaining-store-api-credentials).
 
 *Note: You can sign up for a free trial on bigcommerce.com, which includes API access, if you don't already have an account. There is also a partner program which includes a sandbox account to play around in.*
 
@@ -48,9 +48,9 @@ Alternative to the CLI, you can use the deploy button below to build and deploy 
 *Note: The initial deploy will fail, as you need to set build environment variables for your Netlify site*
 
 To set the variables:
- * Navigate to your Netlify site's "Build & Deploy" settings 
- * Go to "Environment variables" > "Edit variables"
- * Enter the environment variables specified in "SAMPLE.env" and your BC API credentials 
+ * Navigate to your Netlify site's **Build & Deploy** settings 
+ * Go to **Environment variables** > **Edit variables**
+ * Enter the environment variables specified in `SAMPLE.env` and your BC API credentials 
 
 <a href="https://app.netlify.com/start/deploy?repository=https://github.com/bigcommerce/gatsby-bigcommerce-netlify-cms-starter"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
 
@@ -129,18 +129,18 @@ This plugin uses [gatsby-plugin-purgecss](https://www.gatsbyjs.org/packages/gats
 This is based on the [Gatsby Netlify CMS Starter](https://github.com/netlify-templates/gatsby-starter-netlify-cms) repo. Major kudos!
 
 Photos in starter from various photographers:
-[Aden Ardenrich](https://www.pexels.com/photo/bags-business-commerce-hanging-581344/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
-[Pixabay](https://www.pexels.com/photo/architecture-bar-blur-boutique-264570/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
-[Artem Beliaikin](https://www.pexels.com/photo/multi-colored-hunged-coats-2872879/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
-[Daria Shevtsova](https://www.pexels.com/photo/red-motor-scooter-parking-on-front-of-chez-michele-store-1070981/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
-[Aleksandar Pasaric](https://www.pexels.com/photo/people-walking-on-street-near-buildings-2339009/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
-[Naim Benjelloun](https://www.pexels.com/photo/photo-of-people-walking-in-marketplace-2610817/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
-[Kiara Coll](https://www.pexels.com/photo/close-up-photo-of-assorted-textiles-2928381/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
-[Artem Beliaikin](https://www.pexels.com/photo/white-and-black-floral-cap-sleeved-shirt-994523/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
-[Eric Montanah](https://www.pexels.com/photo/two-assorted-color-padded-chairs-near-side-table-1350789/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
-[Sanketh Rao](https://www.pexels.com/photo/assorted-commemorative-plates-716107/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
-[Artem Beliaikin](https://www.pexels.com/photo/photo-of-beaded-accessories-994515/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
-[Jamie Diaz](https://www.pexels.com/photo/cat-mascot-outdoors-2133243/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+- [Aden Ardenrich](https://www.pexels.com/photo/bags-business-commerce-hanging-581344/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+- [Pixabay](https://www.pexels.com/photo/architecture-bar-blur-boutique-264570/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+- [Artem Beliaikin](https://www.pexels.com/photo/multi-colored-hunged-coats-2872879/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+- [Daria Shevtsova](https://www.pexels.com/photo/red-motor-scooter-parking-on-front-of-chez-michele-store-1070981/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+- [Aleksandar Pasaric](https://www.pexels.com/photo/people-walking-on-street-near-buildings-2339009/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+- [Naim Benjelloun](https://www.pexels.com/photo/photo-of-people-walking-in-marketplace-2610817/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+- [Kiara Coll](https://www.pexels.com/photo/close-up-photo-of-assorted-textiles-2928381/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+- [Artem Beliaikin](https://www.pexels.com/photo/white-and-black-floral-cap-sleeved-shirt-994523/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+- [Eric Montanah](https://www.pexels.com/photo/two-assorted-color-padded-chairs-near-side-table-1350789/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+- [Sanketh Rao](https://www.pexels.com/photo/assorted-commemorative-plates-716107/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+- [Artem Beliaikin](https://www.pexels.com/photo/photo-of-beaded-accessories-994515/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+- [Jamie Diaz](https://www.pexels.com/photo/cat-mascot-outdoors-2133243/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
 
 # CONTRIBUTING
 
